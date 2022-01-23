@@ -1,0 +1,41 @@
+<h3 class="titulo">COMIDAS DEL MUNDO</h3>
+<div class="main_container" *ngFor="let item of dishList; let index = index">
+  <div class="card_element">
+    <div class="card_element_head">
+      <h1 class="food_title">{{ item.name }}</h1>
+      <div class="div_image_flag">
+        <img class="img_flag" src="{{ item.flag }}" />
+      </div>
+    </div>
+
+    <div class="card_element_body">
+      <div class="div_image">
+        <img class="img" src="{{ item.img.src }}" alt="{{ item.img.alt }}" />
+        <div class="div_description">
+          <p class="p_description">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="div_btn">
+      <button (click)="onBtnClick()">Ingredientes</button>
+    </div>
+
+
+
+    <div *ngIf="viewIngredients">
+
+      <ul class ="ingredients_list">
+        <li class = "ingredients_item">{{item.ingredients[0]}}</li>
+        <li class = "ingredients_item">{{item.ingredients[1]}}</li>
+        <li class = "ingredients_item">{{item.ingredients[2]}}</li>
+        <li class = "ingredients_item">{{item.ingredients[3]}}</li>
+      </ul>
+    </div>
+
+
+
+
+
+  </div>
+</div>
