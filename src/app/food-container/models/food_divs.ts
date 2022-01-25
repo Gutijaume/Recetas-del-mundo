@@ -1,10 +1,7 @@
 
 export interface dishModel {
   name: string
-  img: {
-    src: string,
-    alt: string
-  }
+  img: string,
   description: string,
   ingredients: string[],
   flag: string

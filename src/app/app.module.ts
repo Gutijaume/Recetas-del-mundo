@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FoodContainerComponent } from './food-container/food-container.component';
 import { ButtonComponent } from './button/button.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FoodContainerComponent,
-    ButtonComponent
+    ButtonComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
