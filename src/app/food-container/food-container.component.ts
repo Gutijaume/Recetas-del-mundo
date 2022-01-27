@@ -18,7 +18,7 @@ export class FoodContainerComponent implements OnInit {
       name: "Ceviche",
       img: 'https://jameaperu.com/wp-content/uploads/2020/05/ceviche-peruano-original_700x465.jpg',
       description: "El cebiche, ceviche, sebiche o seviche (según la RAE, puede ser escrito de estas cuatro formas, dependiendo del lugar) es un plato consistente en carne marinada ―pescado, mariscos o ambos― en aliños cítricos.",
-      ingredients: ["Pescado", "Jugo de limón", "Ají", "Cilantro", ],
+      ingredients: ["Pescado", "Jugo de limón", "Ají", "Cilantro", "Choclo"],
       flag: "https://cdn-icons-png.flaticon.com/512/197/197563.png"
     }
 
@@ -37,7 +37,7 @@ export class FoodContainerComponent implements OnInit {
       name : 'Paella',
       img:"https://images.aws.nestle.recipes/resized/bad4d3b51ce0e061b4ed00574e00ed03__0015_16_-__Paella_1200_600.jpg",
       description: 'La paella (del valenciano paella, que significa sartén y se refiere al recipiente con el que se hace la receta y que le da nombre, y este a su vez del latín patella) es una receta de cocina con base de arroz, con origen en la actual Comunidad Valenciana (España), hoy en día muy popular en toda España y servida en restaurantes de todo el mundo',
-      ingredients: ['Arroz', "Carne", "Verduras", "Azafrán"],
+      ingredients: ['Arroz', "Carne", "Verduras", "Azafrán", "Caracoles"],
       flag: "https://cdn-icons-png.flaticon.com/512/197/197593.png"
     },
     {

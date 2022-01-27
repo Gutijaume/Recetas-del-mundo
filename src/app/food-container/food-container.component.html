@@ -26,10 +26,8 @@
     <div *ngIf="viewIngredients">
 
       <ul class ="ingredients_list">
-        <li class = "ingredients_item">{{item.ingredients[0]}}</li>
-        <li class = "ingredients_item">{{item.ingredients[1]}}</li>
-        <li class = "ingredients_item">{{item.ingredients[2]}}</li>
-        <li class = "ingredients_item">{{item.ingredients[3]}}</li>
+        <li class = "ingredients_item" *ngFor="let value of item.ingredients">{{value}}</li>
+
       </ul>
     </div>
 
@@ -38,4 +36,5 @@
 
 
   </div>
+  
 </div>
